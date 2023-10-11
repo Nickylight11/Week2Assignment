@@ -30,7 +30,7 @@ body {
 .assignmentlinks-div{
   display: flex;
   gap: 1em;
-  margin-left: 600px;
+  margin-left: 300px;
 }
 /* I had 3 photos and removed one to make it more aesthetically pleasing to the eye. Also, when centering the photos, I wanted it to not break margins of the actual text. */
 .worldsport-div {
@@ -48,7 +48,7 @@ form {
 .laxhistorylinks-div{
   display: flex;
   gap: 1em;
-  margin-left: 600px;
+  margin-left: 300px;
 }
 /* Image was centered. */
 .history-div{
@@ -72,7 +72,7 @@ td {
 .laxgearlinks-div{
   display: flex;
   gap: 1em;
-  margin-left: 650px;
+  margin-left: 350px;
 }
 /* Image was centered. */
 .laxgearimg-div{
@@ -83,7 +83,7 @@ td {
 .laxtodaylinks-div{
   display: flex;
   gap: 1em;
-  margin-left: 600px;
+  margin-left: 300px;
 }
 /* Ensured the Mens and Womens lacrosse sections were centered along with their specific images. */
 .womenslax-div {
