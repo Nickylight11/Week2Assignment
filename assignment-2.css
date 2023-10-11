@@ -1,0 +1,94 @@
+/* CSS Styles for All Pages */
+/* Below, I wanted to establish a red border (similar to our Week 2 Lab) */
+* {
+  border: 1px solid red;
+}
+/* For the Headers, I liked the look of having 'centered' text and used it throughout h1-h4 */
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+h4{
+  text-align: center;
+}
+/* For the paragraph font, I chose the 'justify' text alignment as I didn't want everything to be completely centered. */
+p{
+  text-align:justify;
+}
+/* Since I struggled to center the unordered lists, I decided to focus on the margins as seen below and get as close to center as possible. */
+ul{
+  margin-top: 1rem; margin-bottom: 1rem; margin-left: 5rem; margin-right: 5rem;
+}
+
+/* The Story of Lacrosse CSS Styles */
+body { 
+  margin-top: 1rem; margin-bottom: 1rem; margin-left: 5rem; margin-right: 5rem;
+}
+/* For the various links, I tried the flex-box approach to center them, while also providing enough space between so it was legible to see they were separate links. */
+.assignmentlinks-div{
+  display: flex;
+  gap: 1em;
+  margin-left: 600px;
+}
+/* I had 3 photos and removed one to make it more aesthetically pleasing to the eye. Also, when centering the photos, I wanted it to not break margins of the actual text. */
+.worldsport-div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+/* Kept a central theme and made sure the form at the bottom was in the center as well. */
+form {
+  text-align: center;
+}
+
+/* History of Lacrosse CSS Styles */
+/* Links followed a flex box approach with spacing in between each one. */
+.laxhistorylinks-div{
+  display: flex;
+  gap: 1em;
+  margin-left: 600px;
+}
+/* Image was centered. */
+.history-div{
+  text-align: center;
+}
+/* For the table, I wanted to have a timeline that popped. I chose beige and what appears to be a golden yellow to make sure it was legible. */
+th {
+  background-color: beige;
+}
+td {
+  background-color: rgb(238, 148, 83);
+}
+/* For the source under the timeline I wanted to make sure it was italicize to look like sources I have seen in other websites. */
+.source-div{
+  text-align: center;
+  font-style: italic;
+}
+
+/* Lacrosse Gear CSS Styles */
+/* Links followed a flex box approach with spacing in between each one. */
+.laxgearlinks-div{
+  display: flex;
+  gap: 1em;
+  margin-left: 650px;
+}
+/* Image was centered. */
+.laxgearimg-div{
+  text-align: center;
+}
+/* Lacrosse Today CSS Styles */
+/* Links followed a flex box approach with spacing in between each one. */
+.laxtodaylinks-div{
+  display: flex;
+  gap: 1em;
+  margin-left: 600px;
+}
+/* Ensured the Mens and Womens lacrosse sections were centered along with their specific images. */
+.womenslax-div {
+  text-align: center;
+}
+.Menslax-div {
+  text-align: center;
+}
